@@ -15,7 +15,7 @@ header {
 
 main {
   width: 500px;
-  height: 900px;
+  height: auto;
   border: 2px solid red;
   margin-bottom: 10px;
   padding: 10px;
@@ -31,6 +31,14 @@ main {
 footer {
   width: 500px;
   border: 2px solid black;
+}
+
+button {
+  padding: 7px 45px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  border: 2px solid #3882f6;
+  color: white;
 }
 
 /* combinators */
@@ -53,6 +61,28 @@ main section {
   border: 2px dashed blue;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.information .h-info {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote .b-quotes {
+  size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote .someoneFamous {
+  text-align: right;
+  margin: auto;
 }
 
 .hero h1 {
