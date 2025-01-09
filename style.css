@@ -26,6 +26,7 @@ main {
   border: 2px dotted green;
   margin-bottom: 10px;
   padding: 10px;
+  text-align: center;
 }
 
 footer {
@@ -56,11 +57,29 @@ header nav ul a {
   color: white;
 }
 
+header,
+.hero,
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
 main section {
   width: 500px;
   border: 2px dashed blue;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .information .h-info {
@@ -73,6 +92,7 @@ main section {
   border: 1px solid black;
   width: 100px;
   height: auto;
+  margin: auto auto;
 }
 .card .card-square img {
   max-width: 100%;
@@ -95,20 +115,16 @@ main section {
   margin: auto;
 }
 
-.hero h1 {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: 900;
+.advertise {
+  background-color: white;
 }
 
-.hero p {
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
-header,
-.hero,
-footer {
-  background-color: #1f2937;
+.advertise .signUp-container {
+  background-color: #3882f6;
   color: white;
+  padding: 25px 50px;
+}
+
+.advertise .signUp-container button {
+  border: 2px solid #e5e7eb;
 }
