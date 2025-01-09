@@ -23,7 +23,10 @@ main {
   width: 200px;
   border: 2px dotted green;
   margin-bottom: 10px;
-  padding: 2px;
+  padding: 15px;
+  text-align: center;
+}
+.information {
   text-align: center;
 }
 
@@ -116,14 +119,14 @@ main section {
 .card .card-square {
   border: 3px solid #3882f6;
   border-radius: 2px;
-  width: 140px;
-  height: 100px;
   margin: auto auto;
+  max-width: 150px;
+  max-height: 104px;
 }
 .card .card-square img {
   max-width: 100%;
-  min-height: 100%;
-  object-fit: scale;
+  max-height: 100%;
+  height: auto;
 }
 
 .quote {
