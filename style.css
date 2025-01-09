@@ -6,8 +6,6 @@
 }
 
 header {
-  /* box model */
-  width: 500px;
   border: 2px solid black;
   margin-bottom: 10px;
   padding: 20px;
@@ -43,6 +41,19 @@ button {
   color: white;
 }
 
+.display-flex {
+  display: flex;
+}
+.flex-gap {
+  gap: 10px;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-align-items-center {
+  align-items: center;
+}
+
 /* combinators */
 
 header nav p {
@@ -51,6 +62,11 @@ header nav p {
 }
 header nav ul {
   list-style-type: none;
+  min-width: 200px;
+}
+
+header nav ul li {
+  margin-left: 10px;
 }
 
 header nav ul a {
