@@ -69,6 +69,16 @@ main section {
   font-weight: 900;
 }
 
+.card .card-square {
+  border: 1px solid black;
+  width: 100px;
+  height: auto;
+}
+.card .card-square img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .quote {
   background-color: #e5e7eb;
 }
