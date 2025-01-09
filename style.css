@@ -15,8 +15,8 @@ header {
 
 main {
   height: auto;
-  border-left: 1px solid red;
-  border-right: 1px solid red;
+  /* border-left: 1px solid red;
+  border-right: 1px solid red; */
 }
 .hero {
   padding: 170px 0;
@@ -115,6 +115,10 @@ footer {
 .hero p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero button {
+  margin: 20px 0;
 }
 
 .hero .hero-text-container {
