@@ -68,6 +68,12 @@ button {
 .flex-wrap {
   flex-wrap: wrap;
 }
+.flex-dir-col {
+  flex-direction: column;
+}
+.flex-alself-end {
+  align-self: end;
+}
 
 /* combinators */
 
@@ -152,17 +158,20 @@ footer {
   background-color: #e5e7eb;
 }
 
+.quote .container {
+  padding: 100px;
+}
+
 .quote .b-quotes {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
-  padding: 100px;
 }
 
 .quote .someoneFamous {
-  text-align: left;
-  margin: auto;
+  margin-top: 20px;
+  font-size: 25px;
 }
 
 .advertise {
