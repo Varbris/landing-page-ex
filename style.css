@@ -183,7 +183,11 @@ footer {
   background-color: #3882f6;
   border-radius: 5px;
   color: white;
-  padding: 25px 50px;
+  padding: 40px 50px;
+}
+
+.advertise .signUp-container p {
+  font-weight: 300;
 }
 
 .advertise .signUp-container button {
