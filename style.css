@@ -32,6 +32,7 @@ main {
 footer {
   width: 500px;
   border: 2px solid black;
+  text-align: center;
 }
 
 button {
@@ -80,6 +81,12 @@ main section {
 .hero p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero .hero-img {
+  background-color: #e5e7eb;
+  width: 500px;
+  height: 200px;
 }
 
 .information .h-info {
