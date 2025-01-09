@@ -11,34 +11,41 @@
   </head>
   <body>
     <header >
-      <nav class="display-flex">
-        <div class="logo-container flex-grow-1">
-          <h1>Header Logo</h1>
-        </div>
-        <ul class="display-flex flex-gap flex-align-items-center">
-          <li><a href="">header link one</a></li>
-          <li><a href="">header link two</a></li>
-          <li><a href="">header link three</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="display-flex">
+          <div class="logo-container flex-grow-1">
+            <h1>Header Logo</h1>
+          </div>
+          <ul class="display-flex flex-gap flex-align-items-center">
+            <li><a href="">header link one</a></li>
+            <li><a href="">header link two</a></li>
+            <li><a href="">header link three</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-      <!-- section 1 hero-->
+        <!-- section 1 hero-->
       <section class="hero">
-        <h1>this website is awesome</h1>
-        <p>
-          this website has some subtext that goes here under the main title. its
-          a smaller font and the color is lower contrast
-        </p>
-        <button>Sign Up</button>
-        <div class="hero-img">
-          <img src="" alt="this is a placholder for an image" />
+        <div class="container display-flex">
+          <div class="hero-text-container">
+            <h1>this website is awesome</h1>
+          <p>
+            this website has some subtext that goes here under the main title. its
+            a smaller font and the color is lower contrast
+          </p>
+          <button>Sign Up</button>
+          </div>
+          <div class="hero-img">
+            <img src="" alt="this is a placholder for an image" />
+          </div>
         </div>
       </section>
-      <!-- section 2 information -->
+      <div class="container">
+        <!-- section 2 information -->
       <section class="information">
         <h1 class="h-info">Some Random information</h1>
-        <div class="container">
+        <div class="card-container">
           <div class="card">
             <div class="card-square">
               <img src="img/img1.jpg" alt="">
@@ -96,10 +103,14 @@
           <button>Sign Up</button>
         </div>
       </section>
+      </div>
+      
     </main>
 
     <footer>
-        <p>Copyright &#169 Odin Project 2021</p>
+        <div class="container">
+          <p>Copyright &#169 Odin Project 2021</p>
+        </div>
     </footer>
   </body>
 </html>
